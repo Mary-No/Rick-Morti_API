@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #393745;
+}
+.container{
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.characters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+.characters__item{
+    display: flex;
+    width: 600px;
+    min-height: 220px;
+    border-radius: 15px;
+    background-color: #63636a;
+    margin-bottom: 20px;
+
+    
+}
+
+.characters__item-img img{
+    display: block;
+    height: 220px;
+    margin-right: 20px;
+    border-radius: 15px 0px 0px 15px;
+}
+.characters__item-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 30px 20px 0;
+    color: white;
+}
+.characters__name{
+    font-size: 30px;
+    font-weight: 600;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 40px;
+    letter-spacing: 0.07em;
+}
+
+.characters__location span{
+    color: #c2c2c2;
+}
+
+.pagination{
+    margin: 10px auto 50px auto;
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* .pagination__inner{
+    background-color: #63636a;
+    border-radius: 10px;
+    padding: 6px 40px;
+ 
+}
+.pagination__btn{
+    padding: 8px 15px;
+    background-color: #63636a;
+    border: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+   
+}
+.pagination__btn:hover{
+    background-color: #c2c2c2;
+    color: #63636a;
+    transition: background-color 0.6s ease;
+}
+
+.hide{
+    display: none;
+}
+.backlight{
+    background-color: rgb(42, 35, 73);
+} */
+.pagination_btn{
+    padding: 8px 15px;
+    margin: 5px;
+    background-color: #63636a;
+    border: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+}
+.pagination_btn:hover{
+    background-color: #c2c2c2;
+    color: #4a4a51;
+    transition: background-color 0.4s ease;
+}
+.pagination-active{
+    background-color: rgb(42, 35, 73);
+}
